@@ -7,8 +7,9 @@ source('R/HelloWorld.R')
 source('R/minusRaster.R')
 
 
-HelloWorld('john')
-ageCalculator(2009)
+HelloWorld('leoprds')
+ageCalculator(2016)
+
 
 # import dataset
 r <- raster(system.file("external/rlogo.grd", package="raster")) 
